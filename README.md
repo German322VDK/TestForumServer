@@ -12,12 +12,82 @@ TestReactForum — это проект, который включает в се�
 
 ## Структура проекта
 
-TestForumServer ├── Program ├── Startup ├── TestForumServer.Controllers │ ├── CommentController │ ├── PostController │ ├── TradController │ └── UsersController ├── TestForumServer.Database.Context
-│ └── TestForumDbContext ├── TestForumServer.Domain.Entities.ForumEntities.Base
-│ └── Entity ├── TestForumServer.Domain.Entities.ForumEntities.Contents
-│ ├── CommentEntity │ ├── ContentEntity │ ├── PostEntity │ └── TradEntity ├── TestForumServer.Domain.Entities.ForumEntities.Likes
-│ ├── CommentLikeEntity │ ├── LikeEntity │ ├── PostLikeEntity │ └── TradLikeEntity ├── TestForumServer.Domain.Entities.Identity
-│ ├── RoleEntity │ ├── UserEntity │ └── UserStatus ├── TestForumServer.Domain.ViewModels.ForumViewModels.Contents.Base │ ├── CommentViewModel │ ├── ContentViewModel │ ├── ImageViewModel │ ├── PostViewModel │ ├── TradShortViewModel │ └── TradViewModel ├── TestForumServer.Domain.ViewModels.ForumViewModels.Contents.FromView │ ├── CommentFromView │ ├── ContentFromView │ ├── PostFromView │ └── TradFromView ├── TestForumServer.Domain.ViewModels.Identities │ ├── LoginViewModel │ ├── RegisterViewModel │ ├── UserContentViewModel │ ├── UserInfoViewModel │ ├── UserLongModel │ └── UserRefViewModel ├── TestForumServer.Infrastructure.Initializers │ └── TestForumDbInitializer ├── TestForumServer.Infrastructure.Mapping │ ├── ContentMapper │ └── UserMapper ├── TestForumServer.Infrastructure.Services.Identity │ └── UserManagerExtensions ├── TestForumServer.Infrastructure.Services.Stores.Contents │ ├── CommentStore │ ├── ContentStoreBase<TEntity> │ ├── IStore<TEntity> │ ├── PostStore │ └── TradStore ├── TestForumServer.Infrastructure.StaticData │ └── Init ├── TestForumServer.WebInfrastructure.FileManagement.Images │ ├── IImageManager │ ├── ImageManager │ └── ImageUploadResult ├── TestForumServer.WebInfrastructure.Middlewares │ ├── BanMiddleware │ └── ErrorHandlingMiddleware └── TestForumServer.WebInfrastructure.Security ├── CustomTokenOptions ├── ITokenService ├── JwtSettings └── TokenService
+TestForumServer
+├── Program
+├── Startup
+├── TestForumServer.Controllers
+│   ├── CommentController
+│   ├── PostController
+│   ├── TradController
+│   └── UsersController
+├── TestForumServer.Database.Context
+│   └── TestForumDbContext
+├── TestForumServer.Domain.Entities.ForumEntities
+│   ├── Base
+│   │   └── Entity
+│   ├── Contents
+│   │   ├── CommentEntity
+│   │   ├── ContentEntity
+│   │   ├── PostEntity
+│   │   └── TradEntity
+│   ├── Likes
+│   │   ├── CommentLikeEntity
+│   │   ├── LikeEntity
+│   │   ├── PostLikeEntity
+│   │   └── TradLikeEntity
+│   ├── Identity
+│   │   ├── RoleEntity
+│   │   ├── UserEntity
+│   │   └── UserStatus
+├── TestForumServer.Domain.ViewModels.ForumViewModels
+│   ├── Contents
+│   │   ├── Base
+│   │   │   ├── CommentViewModel
+│   │   │   ├── ContentViewModel
+│   │   │   ├── ImageViewModel
+│   │   │   ├── PostViewModel
+│   │   │   ├── TradShortViewModel
+│   │   │   └── TradViewModel
+│   │   ├── FromView
+│   │   │   ├── CommentFromView
+│   │   │   ├── ContentFromView
+│   │   │   ├── PostFromView
+│   │   │   └── TradFromView
+│   ├── Identities
+│   │   ├── LoginViewModel
+│   │   ├── RegisterViewModel
+│   │   ├── UserContentViewModel
+│   │   ├── UserInfoViewModel
+│   │   ├── UserLongModel
+│   │   └── UserRefViewModel
+├── TestForumServer.Infrastructure.Initializers
+│   └── TestForumDbInitializer
+├── TestForumServer.Infrastructure.Mapping
+│   ├── ContentMapper
+│   └── UserMapper
+├── TestForumServer.Infrastructure.Services.Identity
+│   └── UserManagerExtensions
+├── TestForumServer.Infrastructure.Services.Stores.Contents
+│   ├── CommentStore
+│   ├── ContentStoreBase
+│   ├── IStore
+│   ├── PostStore
+│   └── TradStore
+├── TestForumServer.Infrastructure.StaticData
+│   └── Init
+├── TestForumServer.WebInfrastructure.FileManagement.Images
+│   ├── IImageManager
+│   ├── ImageManager
+│   └── ImageUploadResult
+├── TestForumServer.WebInfrastructure.Middlewares
+│   ├── BanMiddleware
+│   └── ErrorHandlingMiddleware
+└── TestForumServer.WebInfrastructure.Security
+    ├── CustomTokenOptions
+    ├── ITokenService
+    ├── JwtSettings
+    └── TokenService
+
 
 
 
