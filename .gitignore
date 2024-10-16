@@ -361,3 +361,16 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/TestForumServer/TestForumServer/TestForum.db
+/TestForumServer/TestForumServer/TestForum.db-shm
+/TestForumServer/TestForumServer/TestForum.db-wal
+
+# Игнорировать все файлы в папке uploads
+/TestForumServer/TestForumServer/wwwroot/uploads/*
+
+# Исключить конкретные файлы
+/TestForumServer/TestForumServer/!wwwroot/uploads/trads/trad-1.jpg
+/TestForumServer/TestForumServer/!wwwroot/uploads/trads/trad-1-post-1
+/TestForumServer/TestForumServer/!wwwroot/uploads/trads/trad-1-post-1-com-1.jpg
+/TestForumServer/TestForumServer/!wwwroot/uploads/users/main.jpg
+/TestForumServer/TestForumServer/!wwwroot/uploads/users/default.jpg
