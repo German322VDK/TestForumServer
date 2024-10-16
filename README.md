@@ -1,12 +1,5 @@
 # TestReactForum
 
-## Документация
-Чтобы ознакомится с документацией перейдите по [ссылке](https://german322vdk.github.io/TestForumServer/api/index.html)
-
-[![Testing](https://github.com/German322VDK/TestForumServer/actions/workflows/Testing.yml/badge.svg)](https://github.com/German322VDK/TestForumServer/actions/workflows/Testing.yml)
-
-# TestReactForum
-
 ## Описание проекта
 TestReactForum — это проект, который включает в себя API на ASP.NET Core, клиентскую часть на React JS, сервер Nginx и контейнеризацию с помощью Docker. Проект предоставляет функциональность для управления форумом, включая создание и взаимодействие с постами, комментариями и темами обсуждения.
 
@@ -108,5 +101,5 @@ TestForumServer
  ```
 [![Testing](https://github.com/German322VDK/TestForumServer/actions/workflows/Testing.yml/badge.svg)](https://github.com/German322VDK/TestForumServer/actions/workflows/Testing.yml)
 
-Документация
-Чтобы ознакомиться с документацией, перейдите по ссылке.
+## Документация
+Чтобы ознакомится с документацией перейдите по [ссылке](https://german322vdk.github.io/TestForumServer/api/index.html)
