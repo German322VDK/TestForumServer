@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Controllers.CommentController.html",
-          "hash": "2W6PrzLWPfZx53kuQwMSMq5D5cfiz0k1NZainju7UF0="
+          "hash": "SNN7Ik5KtVFH5ZmS6ljzdhexXyyd41TMinhs2NqhOB8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Controllers.PostController.html",
-          "hash": "FDDB6dpxXi3OZMjroyetZnhQGnJ8b7T4yzdmnQYGL90="
+          "hash": "b3+oysCBf49B+XXf26LL8Rd7FMdhJU/nniqlRRZITMw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Controllers.TradController.html",
-          "hash": "HcXrJH++Ug8hVAxEoqo/hcLG3kMWXdYlTKaYD1cEg6U="
+          "hash": "WUU6fAxo1xA1JrZaIocdjWxTyjHVCxsqxcA3VRfIw5A="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Controllers.UsersController.html",
-          "hash": "MjAJRpPjrBGPRCHpM09lgI/l6CrwZqDOduH3dS8eK0U="
+          "hash": "qubWK4yRX9jH9Y8APjASY3wM43olVyyU520F5WRdgL0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -60,7 +60,7 @@
           "hash": "SQKnNS5DePeIBkUrb1fo23rKhdZbQHTIoSgPLF1YpDA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Database.Context.TestForumDbContext.html",
-          "hash": "QQtT8lRlG03gWdrDITVMU3hQAC9BSnmNh6MS6ccXvww="
+          "hash": "ZAxl76oh9SyjIqBxDtuxV+p620kKpxMoRuSGG9b+AFg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -84,7 +84,7 @@
           "hash": "lQgu4xMNs54REgrOo2MAzycaCCbfVDY4jJkOvF03WNc="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -93,10 +93,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Database.Migrations.Init.html",
-          "hash": "HlNPPYvzXZATQBa6bKTUwtl4sA3+CUxIhwwm0XmUdyY="
+          "hash": "ErkLWXpHnsLmMUNShzhSl4k590C3VU08pn1gdZM/5tE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Database.Migrations.ProfilePicturePathNull.html",
-          "hash": "JQZjvYTFS1bEbDK75n8Kf9kq15E8FLjUa6qpCjC9E30="
+          "hash": "0cVUlJzO30SyuU511rqoNC2960uMSjiCwa6/P+LkZK4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -120,7 +120,7 @@
           "hash": "QLUoxOUKYVX79GPxtIJGeD665OrfdPODqaQkX4KXTWA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.Entities.ForumEntities.Base.Entity.html",
-          "hash": "iDbXWqvTPihFozOAa0gAyzVJ2BXYtsZPVVEloVOa36g="
+          "hash": "75JwHNaN9L5kcY5pGdyz6bLObVmxi42fZARJjuc5uLI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -144,7 +144,7 @@
           "hash": "muj7jAvibTsWyxpewzmjPcxUDF0Hz18544zd5GbLn7I="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -153,10 +153,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.Entities.ForumEntities.Contents.CommentEntity.html",
-          "hash": "SIsi8uCuG7NFfWaZ14o1tqUDyMmQYE9zzQQGFaQDT1c="
+          "hash": "5Yaog9xRN5Ozyvl85l+zStlrz/7VZpzeDiKFy07gyn4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.Entities.ForumEntities.Contents.ContentEntity.html",
-          "hash": "XuHgj/JUGIcb/gWMtTGbhAIWiStCJtKMjA7p+QGaGso="
+          "hash": "GqX+pbGrGTtgOAC3cdMLf5D+cfFWMlORtAGyP8CGtg8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -177,10 +177,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity.html",
-          "hash": "1CwKpxkreEpiOjJYgFdSVtsBKwagxMBW781j7lWyLoE="
+          "hash": "5OrH3OXOgMUF4UFuOMzIHp04y7fYoDi6UKL3RssyIgU="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -189,10 +189,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.Entities.ForumEntities.Contents.TradEntity.html",
-          "hash": "sMlb5WcrLosw5iPCTBvE0jjr4W2r0m27qXKF2GQNPEI="
+          "hash": "yTIjhy9wm+jUwrYja+fqhs/aj8Qi4XcLuI4k9q5OW90="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -204,7 +204,7 @@
           "hash": "50PV4xsh3QC+taOvXgMbZX/IledprnuCtVoH3wVuofM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -213,10 +213,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.Entities.ForumEntities.Likes.CommentLikeEntity.html",
-          "hash": "KaagD49AuZTVR2JS/TpONR4BO7OWGROFoTRaQWRU4uI="
+          "hash": "riIlGWcM6mMJx6Ufr8gU7tAMZf4cTJtidJ3bb+0cFLw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -225,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.Entities.ForumEntities.Likes.LikeEntity.html",
-          "hash": "53PlgzLJmkIfam9T18/GGwVicDJUGDbyCK9GN6DZxJ0="
+          "hash": "XVIzFQv2S/V7FbjTcAA/DuNPQvkQC45MegI4MSm/8QE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -237,10 +237,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.Entities.ForumEntities.Likes.PostLikeEntity.html",
-          "hash": "NfHgurXO/+WWr3HcVwFb3jIjqWt6QNRpS2htjsg2rEk="
+          "hash": "qqGPrhbIQMmwyCqBl8CZkh2JDtYFy3qzkKZKGZoyNZk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -249,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.Entities.ForumEntities.Likes.TradLikeEntity.html",
-          "hash": "jJt5YSGWwSSsZAwIlB7nLH1n6sPN5MQ6WJuHlqILmyc="
+          "hash": "ntFf/ez73upmyyLaE51Fb+4R/jslUJLJamrDL/y+6aw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -264,7 +264,7 @@
           "hash": "zZetRnOu2vOJWGt92S6HWQt2wgNt4ONdLBWMLYla8cY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -273,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.Entities.Identity.RoleEntity.html",
-          "hash": "0eidVvHBk76xYC3W4zbxGENt5aeRDPphRDAI21WIE1o="
+          "hash": "Il9smT+WSliYFH8tnHYrkqeuUZAnHiqVjAw7JiE52b4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -285,10 +285,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.Entities.Identity.UserEntity.html",
-          "hash": "CC7Wd6roBJ4jeZCBrmIIbZNjIE5HzKt9MDaDjYx7eG8="
+          "hash": "lJB3QS5x+MWUxSjOxfqlIjA0oQJCkefROHdXMA78mYs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -297,10 +297,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.Entities.Identity.UserStatus.html",
-          "hash": "CuwvbhhZOJKLrvwUAVaiIS1aeLn8lgzUTqQSohUebjY="
+          "hash": "49geOjgt5lTumlB4eG7zIPWGyNqhRvr8vQ+3FqaI1pA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -312,7 +312,7 @@
           "hash": "gvmUgjmRpXe7WBICcYootEx63jO97fvq+evaVNV4w7w="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -321,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.ForumViewModels.Contents.Base.CommentViewModel.html",
-          "hash": "KDjVbEqR1ZSJfOoZZwbsSwXXHotUyws1sBJqg8NHjh4="
+          "hash": "jsP7/UeWml5IfAwkBpJOGM/0qSFM/jEboEIx9RgwfTY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -333,10 +333,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.ForumViewModels.Contents.Base.ContentViewModel.html",
-          "hash": "348ol9Pd7M3q2QHE4FR33dzAh/o/ZhMC+DJJodyK1mQ="
+          "hash": "ngsE5qZvhbh/lt9d5TSiz3grBKOrN7A03NNnc5h7NZw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -345,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.ForumViewModels.Contents.Base.ImageViewModel.html",
-          "hash": "rwu64P3kM7Gq1or5a4v883sZQ55Lv2spUMOB5WcOyr0="
+          "hash": "Q+YIF4fo8wB0PbESJZFXag6TfSwKaNWoZUZh6/MRpig="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -357,10 +357,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.ForumViewModels.Contents.Base.PostViewModel.html",
-          "hash": "mqCZOPpG1nelNAEfaWdjGBf9ab/86tyN1fmIdMnXkBY="
+          "hash": "s3KejaM2so6ELHfp66I9OLk+CunMufOlAKxwrG3J9vM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -369,10 +369,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.ForumViewModels.Contents.Base.TradShortViewModel.html",
-          "hash": "nGAnBXYbHqXim7bcfVAxy8d5l4/jQAYtkDGH/00N+C4="
+          "hash": "vUEkzsumFdqMtUNk1yKHAOLpGKXxeJVKMDmgfpi4qv8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -381,10 +381,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.ForumViewModels.Contents.Base.TradViewModel.html",
-          "hash": "wZfI5aebNVtK5LhJ9V2fV3mnhRhqmk9lc5CiMyQxrOA="
+          "hash": "h1iCpAYYYRDMkvcUa/da49ef0giL4k1dZj/u0E6I5wQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -396,7 +396,7 @@
           "hash": "PekqyC5kps8GKGHEqt+X8y/uLpowzUFPieBU4kzR0o0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -405,10 +405,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.ForumViewModels.Contents.FromView.CommentFromView.html",
-          "hash": "+nBuzpklgz4QPmz0EHnM3oWhpFW1s7zgCmTSOTT+Now="
+          "hash": "9++93IO6qtMVw7q2vHoKUoFcnECy51f1XY5OU6Csi4w="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -417,10 +417,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.ForumViewModels.Contents.FromView.ContentFromView.html",
-          "hash": "w2V9qzAzAcGPCP3L7haRIe1GU1AqR+VdNbT8pEBuTL8="
+          "hash": "WFbmHZhVKwctpPc2uZ5ohKp/UlVYFrRMFfthnhITwPs="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -429,10 +429,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.ForumViewModels.Contents.FromView.PostFromView.html",
-          "hash": "MX96cRwalzP99tGXStoIgmN7PihRFJX5sKo5OS3xYnQ="
+          "hash": "xLKfFeWVTUHBzQtnbJU3l88ARvnuynaVMAUgP2ayw8w="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -441,10 +441,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.ForumViewModels.Contents.FromView.TradFromView.html",
-          "hash": "ZvkDiJ+awUviWpTP7AA4D2+C2OMj+/ciIC7XLetSZN0="
+          "hash": "jOPvghvw9E7LLxpFYfxgY6GqkE2s3DUqhM0pou5WIro="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -456,7 +456,7 @@
           "hash": "ZvVlKiOqEssxluVvHKNvYgQjsKd6vUb39SyFk8A3csw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -465,10 +465,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.Identities.LoginViewModel.html",
-          "hash": "s858C3xRAs42N5gt6u8P9YMFVb0UTDAyjjF5q84U3RE="
+          "hash": "ehe11pNXS08ZWLs3n339tbY1om+m90DbFsLxjwrs1Z8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -477,10 +477,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.Identities.RegisterViewModel.html",
-          "hash": "Mx+R5l0M8UOaM5TLaiO9n4y3oHEbvMP1BzZHVfWMLZs="
+          "hash": "IIUiCdIUI4Z3AK2JgqO+womTWSl3+ZH0XVfoVailLMA="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -489,10 +489,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.Identities.UserContentViewModel.html",
-          "hash": "BLjldN4kQK076LPFZN4bZxNSdrUy5FHltT49iGSybNE="
+          "hash": "QdU3l0H4wVe65yaRpJ397YGw+bnigPNmXP4iEBCZe/E="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -501,10 +501,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.Identities.UserInfoViewModel.html",
-          "hash": "qCdMtZz02unGnjTqwv+CyJcPnTJnEZ+cbmpPFiH+fCo="
+          "hash": "qM9bPskz93YGzjW/ReaoRYIJGj+2/aaiPJth5wXRrCo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -513,10 +513,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.Identities.UserLongModel.html",
-          "hash": "zve4Rf2Cp4LZt5Kf9npcYhx+n1Us7hTPngk+Xbe5m+A="
+          "hash": "K9gboqEeBdXzu1YXuP92e4RV8tIap8+PzswpQHYSyL8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -525,10 +525,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Domian.ViewModels.Identities.UserRefViewModel.html",
-          "hash": "53S+LpQrSa5OKfPolcGEfVzzUZM/0DMEDU4hA+fKb8E="
+          "hash": "AfDToXNSlrxUOlt8//7OO/ndJlexcD3HisfP50608x4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -540,7 +540,7 @@
           "hash": "sLI3Ao5xVy+sQxrIfcheQh6BaV3lAahZfY4xD9bxVss="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -549,10 +549,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Infrastructure.Initializers.TestForumDbInitializer.html",
-          "hash": "mOB1oXFMP72/LRuVDwkuoxFXwgLTSajeWyI0vUhqHNw="
+          "hash": "CHbjY7tRu/2EsqDUoMJ6zZGI5VIRCCfUEb1pdGFAT6s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -564,7 +564,7 @@
           "hash": "DYdMmgi7H+6dH8U5wDLpWVxzhAr8stfdmIr0reNWCXE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -573,10 +573,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Infrastructure.Mapping.ContentMapper.html",
-          "hash": "hHlSeAMgPzIyVZmZIsN6TBlzQuW8pR9DZU3hQkeJyxI="
+          "hash": "bZCh8oeAyTFGfYwaTxUu2vbela8ftloHsRmxgmahgok="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -585,10 +585,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Infrastructure.Mapping.UserMapper.html",
-          "hash": "N0ZhSbAhtgpl4InC9ybSRFnUuaZ5pCawni6XYeWZ3tc="
+          "hash": "+mJDoNXUOS5CBzR/Jvcigy8OlkbhOLU8Te5ni8cQnv4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -600,7 +600,7 @@
           "hash": "luKY7wY4j/hIXaHLYpb5QfGJ73z/r9EYALz4vzJtBMg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -609,10 +609,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Infrastructure.Services.Identity.UserManagerExtensions.html",
-          "hash": "/XWxSqc+IvnGrLK6yHLJ8CYdVa/aoILIknug/L/XPQM="
+          "hash": "Epjflu/t1AfdjUaXs2qPvPiPOvH/vrzUiyFtixPtlw0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -624,7 +624,7 @@
           "hash": "D8buzPI2TpDRR7kP3NDRIJqPdE7op1U1glV2wM6wn4I="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -633,10 +633,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Infrastructure.Services.Stores.Contents.CommentStore.html",
-          "hash": "/XDNvol4Z+7F//NhDWRfKzOU60RHr6L0hdQ4Mylmodg="
+          "hash": "7NS33efJ4zAMqFCqsKk0fYXmAEgO9w39mhMx0S758bg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -645,10 +645,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase-1.html",
-          "hash": "7RreOQHhDd9w3wJitbk0WDTalsg6luFRkkfdHdao1Kg="
+          "hash": "LkmKZdL7fMRuWIVaI/Hkahrj/qAr3D0wmFw4njkFyKo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -657,10 +657,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Infrastructure.Services.Stores.Contents.IStore-1.html",
-          "hash": "rFlX5j8eEzBcJstN4kN1PXJ1sBHybecZ17Kb1yIx9Oo="
+          "hash": "Ad/EY8G4LFZKljh3hVVQEIQMlHRIwimC3S8GOGNQLjo="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -669,10 +669,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.html",
-          "hash": "G0m7bGIN2WvEt3qRS3HPE57fSskzsBq+7yxZL9vOwyA="
+          "hash": "95PQlBRRNruRNEMXJ6S6dPQn+s12TrVADkzLXUqqxtQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -681,10 +681,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Infrastructure.Services.Stores.Contents.TradStore.html",
-          "hash": "vhC+TZLIoecM9f4bleIgfzKmKsYcjzfob2Q3k/Yb7G0="
+          "hash": "QYZvdG12dn+fKFt5Fzv6Jl1yvIs43JhDAIgULvwN3SQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -696,7 +696,7 @@
           "hash": "cIqjPnwBP0qb7zhX7ItE03hC52wvoTOu8Z5LmF9NfY8="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -705,10 +705,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Infrastructure.StaticData.InitData.html",
-          "hash": "KfHy2/7lRc3aOE8zf/oQW1mFYtWnXYsalKYLc6dIOgA="
+          "hash": "CBlWfUEpNsqb02UsSq8UrXBfcNtZoQe6yRXGxfpjPbI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -720,7 +720,7 @@
           "hash": "EGrsEXhAN7SRuvXc1qgyEd66jdFz/CdItNMkSmGeDZw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -729,10 +729,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Program.html",
-          "hash": "WkqiT1YA1FdIJ24xmq00ZiADk0z7A8Saf1RGKK0qVyU="
+          "hash": "YomNnffOAiBcQgDCl9m2sX7ZlKYBCdc/PVXOZwNb+KI="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -741,10 +741,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.Startup.html",
-          "hash": "tNnEP8sV2tuWMTZy4Qg/9onEbNI2P/NaChslYFayokA="
+          "hash": "CgM51W1zIeC8PDYq7S+SezTr1LLxF0SIX20j2V5akK0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -753,10 +753,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.WebInfrastructure.FileManagement.Images.IImageManager.html",
-          "hash": "eGXllyNtgClvX16+BF3gDVvaDPGM0AE8AgciKrvaXrk="
+          "hash": "fwOaKNRPv/FZ1UAMbHIJ6VTAwkBLFbZVpTXAUle27x4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -765,10 +765,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.WebInfrastructure.FileManagement.Images.ImageManager.html",
-          "hash": "KyPbmPmVQlhqJM/Ky9Wp2TzDdCIo2kDmTLqBzOTRM/k="
+          "hash": "SABhU2EURnGfvm+3fj+xDK175fDoVo1aMtpPuJF+3H0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -777,10 +777,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.WebInfrastructure.FileManagement.Images.ImageUploadResult.html",
-          "hash": "cB/IzxQmF+vEiUTPj6cmvjoj3jBN6qIJ/eemET83dTg="
+          "hash": "Ulc3lNYHHB8uOjUGRWDoQkJyrG3KVAfN/GNthP3G59s="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -792,7 +792,7 @@
           "hash": "kXOUUYkXKEsgy46tDAhKssLQ5YzCy/2mnbbognVW/zQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -801,10 +801,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.WebInfrastructure.Middlewares.BanMiddleware.html",
-          "hash": "difJZapE/Nuc7DacM0W9ZdgR46jElupDtROI6XPsDHs="
+          "hash": "2WVv5pV+2K0J7b+PqgalSAWcptxot/zVA3dJT9kB4P4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -813,10 +813,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.WebInfrastructure.Middlewares.ErrorHandlingMiddleware.html",
-          "hash": "h2irG+V77z3nvv+AciQh1twu6jmCixc/a+fUHuDOgiw="
+          "hash": "YAhPkdnTfGagMGAUJMOQFGIdfsSVHHzcM7PBLPgrugM="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -828,7 +828,7 @@
           "hash": "wHWvcsZXRNg4Kw7G/AcSfBMiY2Vq1MXltCy7c2iEpu0="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -837,10 +837,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.WebInfrastructure.Security.CustomTokenOptions.html",
-          "hash": "ohkIaFx9/JVmjvIC5VJLrVRAAZpeOmQK9zf0OJOKibY="
+          "hash": "bsIOwuHiT9fqOGytF/VtS1JyKBCX+Kb9t1ZUiSJKdWg="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -849,10 +849,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.WebInfrastructure.Security.ITokenService.html",
-          "hash": "xCDbm1/tqZek+IfXJFjdkriVcuOPYcmt9wkgzOkCM5w="
+          "hash": "lMT+E9dGVpnB5sWCKU46Pn/G6y8NC/Vp2GzpUm/uZTE="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -861,10 +861,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.WebInfrastructure.Security.JwtSettings.html",
-          "hash": "MbvFLyvFT4JYvArSqZ24Hdx1nykIhLT3Ahei49a2CJs="
+          "hash": "kNJscaglJ5LtARFn9ox9xb5axGH2iLqB8VdzUchFJXk="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -873,10 +873,10 @@
       "output": {
         ".html": {
           "relative_path": "api/TestForumServer.WebInfrastructure.Security.TokenService.html",
-          "hash": "+iI8+wXLG/Ffxvd9sRw15sgszIYcdfMPhAL10t1OUmI="
+          "hash": "pjj7WlQDwHP1XXxHrI5U8Ir/9JfI4+XpgZMZjpY3FTY="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -888,7 +888,7 @@
           "hash": "c5ePincHHzMJZx3MnS6VB3WGLLcaIusn0S00OQZx7xQ="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -900,7 +900,7 @@
           "hash": "yDWC3BRUocBKVrPldVzeRLYnJZsJwYaTndgnhlCiqt4="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -995,7 +995,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 75,
-          "skipped_file_count": 75
+          "skipped_file_count": 19
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
