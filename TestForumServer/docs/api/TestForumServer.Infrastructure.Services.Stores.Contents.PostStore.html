@@ -1,0 +1,617 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class PostStore
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class PostStore
+   ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore">
+  
+  
+  <h1 id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore" class="text-break">Class PostStore
+  </h1>
+  <div class="markdown level0 summary"><p>A class for managing posts in the database, inheriting from <a class="xref" href="TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase-1.html">ContentStoreBase&lt;TEntity&gt;</a>.
+This class provides methods for adding, updating, retrieving, and liking/unliking posts.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase-1.html">ContentStoreBase</a>&lt;<a class="xref" href="TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity.html">PostEntity</a>&gt;</div>
+    <div class="level2"><span class="xref">PostStore</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="TestForumServer.Infrastructure.Services.Stores.Contents.IStore-1.html">IStore</a>&lt;<a class="xref" href="TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity.html">PostEntity</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase-1.html#TestForumServer_Infrastructure_Services_Stores_Contents_ContentStoreBase_1_DeleteAsync_System_Int32_">ContentStoreBase&lt;PostEntity&gt;.DeleteAsync(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase-1.html#TestForumServer_Infrastructure_Services_Stores_Contents_ContentStoreBase_1_UpdateImageAsync_System_Int32_System_String_">ContentStoreBase&lt;PostEntity&gt;.UpdateImageAsync(Int32, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase-1.html#TestForumServer_Infrastructure_Services_Stores_Contents_ContentStoreBase_1_UpdateContentAsync_System_Int32_System_String_">ContentStoreBase&lt;PostEntity&gt;.UpdateContentAsync(Int32, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase-1.html#TestForumServer_Infrastructure_Services_Stores_Contents_ContentStoreBase_1_CheckEntityExist__0_System_String_System_String_">ContentStoreBase&lt;PostEntity&gt;.CheckEntityExist(PostEntity, String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase-1.html#TestForumServer_Infrastructure_Services_Stores_Contents_ContentStoreBase_1_ValidationEntityWithException__0_System_String_System_String_">ContentStoreBase&lt;PostEntity&gt;.ValidationEntityWithException(PostEntity, String, String)</a>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TestForumServer.Infrastructure.Services.Stores.Contents.html">TestForumServer.Infrastructure.Services.Stores.Contents</a></h6>
+  <h6><strong>Assembly</strong>: TestForumServer.Infrastructure.dll</h6>
+  <h5 id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class PostStore : ContentStoreBase&lt;PostEntity&gt;, IStore&lt;PostEntity&gt;</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore__ctor_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.#ctor*"></a>
+  <h4 id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore__ctor_TestForumServer_Database_Context_TestForumDbContext_Microsoft_Extensions_Logging_ILogger_TestForumServer_Infrastructure_Services_Stores_Contents_PostStore__" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.#ctor(TestForumServer.Database.Context.TestForumDbContext,Microsoft.Extensions.Logging.ILogger{TestForumServer.Infrastructure.Services.Stores.Contents.PostStore})">PostStore(TestForumDbContext, ILogger&lt;PostStore&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.html">PostStore</a> class with the specified database context and logger.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PostStore(TestForumDbContext dbContext, ILogger&lt;PostStore&gt; logger)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TestForumServer.Database.Context.TestForumDbContext.html">TestForumDbContext</a></td>
+        <td><span class="parametername">dbContext</span></td>
+        <td><p>The database context for managing post persistence.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Microsoft.Extensions.Logging.ILogger</span>&lt;<a class="xref" href="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.html">PostStore</a>&gt;</td>
+        <td><span class="parametername">logger</span></td>
+        <td><p>The logger for logging operations.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_AddAsync_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.AddAsync*"></a>
+  <h4 id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_AddAsync_TestForumServer_Domian_Entities_ForumEntities_Contents_PostEntity_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.AddAsync(TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity)">AddAsync(PostEntity)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously adds a new entity to the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override async Task&lt;PostEntity&gt; AddAsync(PostEntity item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity.html">PostEntity</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity.html">PostEntity</a>&gt;</td>
+        <td><p>A task representing the asynchronous operation, containing the added entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase&lt;TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity&gt;.AddAsync(TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity)</span></div>
+  
+  
+  <a id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_Get_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.Get*"></a>
+  <h4 id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_Get_System_Int32_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.Get(System.Int32)">Get(Int32)</h4>
+  <div class="markdown level1 summary"><p>Retrieves an entity from the database by its identifier.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override PostEntity Get(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The identifier of the entity to retrieve.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity.html">PostEntity</a></td>
+        <td><p>The requested entity, or <code>null</code> if not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase&lt;TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity&gt;.Get(System.Int32)</span></div>
+  
+  
+  <a id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_GetAll_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.GetAll*"></a>
+  <h4 id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_GetAll" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.GetAll">GetAll()</h4>
+  <div class="markdown level1 summary"><p>Retrieves all entities from the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IQueryable&lt;PostEntity&gt; GetAll()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IQueryable</span>&lt;<a class="xref" href="TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity.html">PostEntity</a>&gt;</td>
+        <td><p>An <see cref="!:IQueryable&lt;TEntity>"></see> representing the collection of all entities.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase&lt;TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity&gt;.GetAll()</span></div>
+  
+  
+  <a id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_GetAllWithTracking_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.GetAllWithTracking*"></a>
+  <h4 id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_GetAllWithTracking" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.GetAllWithTracking">GetAllWithTracking()</h4>
+  <div class="markdown level1 summary"><p>Retrieves all posts from the database, with tracking enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override IQueryable&lt;PostEntity&gt; GetAllWithTracking()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IQueryable</span>&lt;<a class="xref" href="TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity.html">PostEntity</a>&gt;</td>
+        <td><p>An <see cref="!:IQueryable&lt;PostEntity>"></see> representing the collection of all posts.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase&lt;TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity&gt;.GetAllWithTracking()</span></div>
+  
+  
+  <a id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_GetWithTracking_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.GetWithTracking*"></a>
+  <h4 id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_GetWithTracking_System_Int32_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.GetWithTracking(System.Int32)">GetWithTracking(Int32)</h4>
+  <div class="markdown level1 summary"><p>Retrieves a post from the database by its identifier, with tracking enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override PostEntity GetWithTracking(int id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The identifier of the post to retrieve.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity.html">PostEntity</a></td>
+        <td><p>The requested post, or <code>null</code> if not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase&lt;TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity&gt;.GetWithTracking(System.Int32)</span></div>
+  
+  
+  <a id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_LikeContentAsync_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.LikeContentAsync*"></a>
+  <h4 id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_LikeContentAsync_System_Int32_System_Int32_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.LikeContentAsync(System.Int32,System.Int32)">LikeContentAsync(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously allows a user to like an entity in the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override async Task&lt;bool&gt; LikeContentAsync(int id, int userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The identifier of the entity to like.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>The identifier of the user liking the entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><p>A task representing the asynchronous operation, containing a boolean indicating whether the like action was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase&lt;TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity&gt;.LikeContentAsync(System.Int32, System.Int32)</span></div>
+  
+  
+  <a id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_ToggleLikeContentAsync_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.ToggleLikeContentAsync*"></a>
+  <h4 id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_ToggleLikeContentAsync_System_Int32_System_Int32_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.ToggleLikeContentAsync(System.Int32,System.Int32)">ToggleLikeContentAsync(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously toggles the like status of an entity for a user in the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override async Task&lt;bool&gt; ToggleLikeContentAsync(int id, int userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The identifier of the entity to toggle like status.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>The identifier of the user toggling the like status.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><p>A task representing the asynchronous operation, containing a boolean indicating whether the action was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase&lt;TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity&gt;.ToggleLikeContentAsync(System.Int32, System.Int32)</span></div>
+  
+  
+  <a id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_UnLikeContentAsync_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.UnLikeContentAsync*"></a>
+  <h4 id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_UnLikeContentAsync_System_Int32_System_Int32_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.UnLikeContentAsync(System.Int32,System.Int32)">UnLikeContentAsync(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously allows a user to unlike an entity in the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override async Task&lt;bool&gt; UnLikeContentAsync(int id, int userId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The identifier of the entity to unlike.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">userId</span></td>
+        <td><p>The identifier of the user unliking the entity.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><p>A task representing the asynchronous operation, containing a boolean indicating whether the unlike action was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase&lt;TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity&gt;.UnLikeContentAsync(System.Int32, System.Int32)</span></div>
+  
+  
+  <a id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_UpdateAsync_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.UpdateAsync*"></a>
+  <h4 id="TestForumServer_Infrastructure_Services_Stores_Contents_PostStore_UpdateAsync_TestForumServer_Domian_Entities_ForumEntities_Contents_PostEntity_" data-uid="TestForumServer.Infrastructure.Services.Stores.Contents.PostStore.UpdateAsync(TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity)">UpdateAsync(PostEntity)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously updates an existing entity in the database.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override async Task&lt;PostEntity&gt; UpdateAsync(PostEntity item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity.html">PostEntity</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity.html">PostEntity</a>&gt;</td>
+        <td><p>A task representing the asynchronous operation, containing the updated entity, or <code>null</code> if not found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">TestForumServer.Infrastructure.Services.Stores.Contents.ContentStoreBase&lt;TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity&gt;.UpdateAsync(TestForumServer.Domian.Entities.ForumEntities.Contents.PostEntity)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="TestForumServer.Infrastructure.Services.Stores.Contents.IStore-1.html">IStore&lt;TEntity&gt;</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

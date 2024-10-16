@@ -1,0 +1,15 @@
+services:
+  backend:
+    image: ${DOCKER_REGISTRY-}testforumserver
+    build:
+      context: .
+      dockerfile: TestForumServer/Dockerfile
+
+  client:
+    image: client
+    build: 
+      context: ./test-forum-client
+      dockerfile: Dockerfile
+
+  proxy:
+    image: nginx:mainline

@@ -1,0 +1,6 @@
+@TestForumServer_HostAddress = http://localhost:5075
+
+GET {{TestForumServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
